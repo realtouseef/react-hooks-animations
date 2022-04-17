@@ -1,6 +1,8 @@
 {
   "name": "react-hooks-animation",
-  "version": "0.1.0",
+  "description": "Animations with React Hooks only",
+  "author": "@realtouseef",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -14,7 +16,11 @@
     "react-dom": "18.0.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.4",
     "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5"
+    "eslint-config-next": "12.1.5",
+    "postcss": "^8.4.12",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "tailwindcss": "^3.0.24"
   }
 }
